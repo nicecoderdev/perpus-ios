@@ -3,27 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		C2F0B53E261EA6D100B4080E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F0B53D261EA6D100B4080E /* AppDelegate.swift */; };
-		C2F0B540261EA6D100B4080E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F0B53F261EA6D100B4080E /* SceneDelegate.swift */; };
-		C2F0B542261EA6D100B4080E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F0B541261EA6D100B4080E /* ViewController.swift */; };
 		C2F0B545261EA6D100B4080E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F0B543261EA6D100B4080E /* Main.storyboard */; };
 		C2F0B547261EA6D200B4080E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F0B546261EA6D200B4080E /* Assets.xcassets */; };
 		C2F0B54A261EA6D200B4080E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F0B548261EA6D200B4080E /* LaunchScreen.storyboard */; };
+		C2F0B552261EA78000B4080E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F0B551261EA78000B4080E /* HomeViewController.swift */; };
+		C2F0B554261ECABD00B4080E /* pdf in Resources */ = {isa = PBXBuildFile; fileRef = C2F0B553261ECABC00B4080E /* pdf */; };
+		D5059A1926A259AC32CFC958 /* Pods_Perpus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F8B0FF692EDB903D56952B /* Pods_Perpus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00F8B0FF692EDB903D56952B /* Pods_Perpus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Perpus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F0B53A261EA6D100B4080E /* Perpus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perpus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2F0B53D261EA6D100B4080E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2F0B53F261EA6D100B4080E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C2F0B541261EA6D100B4080E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C2F0B544261EA6D100B4080E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2F0B546261EA6D200B4080E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2F0B549261EA6D200B4080E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2F0B54B261EA6D200B4080E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F0B551261EA78000B4080E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C2F0B553261ECABC00B4080E /* pdf */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pdf; sourceTree = "<group>"; };
+		C51B3E674D98A38B485D9BC2 /* Pods-Perpus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Perpus.release.xcconfig"; path = "Target Support Files/Pods-Perpus/Pods-Perpus.release.xcconfig"; sourceTree = "<group>"; };
+		F53BC0E2D0120943A6B85BF9 /* Pods-Perpus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Perpus.debug.xcconfig"; path = "Target Support Files/Pods-Perpus/Pods-Perpus.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5059A1926A259AC32CFC958 /* Pods_Perpus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0000DEB7BEDFE33BF2A0C516 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F53BC0E2D0120943A6B85BF9 /* Pods-Perpus.debug.xcconfig */,
+				C51B3E674D98A38B485D9BC2 /* Pods-Perpus.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		527DAD667687E94C92E09272 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00F8B0FF692EDB903D56952B /* Pods_Perpus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C2F0B531261EA6D100B4080E = {
 			isa = PBXGroup;
 			children = (
 				C2F0B53C261EA6D100B4080E /* Perpus */,
 				C2F0B53B261EA6D100B4080E /* Products */,
+				0000DEB7BEDFE33BF2A0C516 /* Pods */,
+				527DAD667687E94C92E09272 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +81,12 @@
 			isa = PBXGroup;
 			children = (
 				C2F0B53D261EA6D100B4080E /* AppDelegate.swift */,
-				C2F0B53F261EA6D100B4080E /* SceneDelegate.swift */,
-				C2F0B541261EA6D100B4080E /* ViewController.swift */,
+				C2F0B551261EA78000B4080E /* HomeViewController.swift */,
 				C2F0B543261EA6D100B4080E /* Main.storyboard */,
 				C2F0B546261EA6D200B4080E /* Assets.xcassets */,
 				C2F0B548261EA6D200B4080E /* LaunchScreen.storyboard */,
 				C2F0B54B261EA6D200B4080E /* Info.plist */,
+				C2F0B553261ECABC00B4080E /* pdf */,
 			);
 			path = Perpus;
 			sourceTree = "<group>";
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2F0B54E261EA6D200B4080E /* Build configuration list for PBXNativeTarget "Perpus" */;
 			buildPhases = (
+				C0E807CDA13FD2A2FBF7EDB9 /* [CP] Check Pods Manifest.lock */,
 				C2F0B536261EA6D100B4080E /* Sources */,
 				C2F0B537261EA6D100B4080E /* Frameworks */,
 				C2F0B538261EA6D100B4080E /* Resources */,
+				AF5CEFB2135F2CE350D196F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2F0B54A261EA6D200B4080E /* LaunchScreen.storyboard in Resources */,
+				C2F0B554261ECABD00B4080E /* pdf in Resources */,
 				C2F0B547261EA6D200B4080E /* Assets.xcassets in Resources */,
 				C2F0B545261EA6D100B4080E /* Main.storyboard in Resources */,
 			);
@@ -133,14 +160,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AF5CEFB2135F2CE350D196F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Perpus/Pods-Perpus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Perpus/Pods-Perpus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Perpus/Pods-Perpus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E807CDA13FD2A2FBF7EDB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Perpus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2F0B536261EA6D100B4080E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2F0B542261EA6D100B4080E /* ViewController.swift in Sources */,
 				C2F0B53E261EA6D100B4080E /* AppDelegate.swift in Sources */,
-				C2F0B540261EA6D100B4080E /* SceneDelegate.swift in Sources */,
+				C2F0B552261EA78000B4080E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +350,13 @@
 		};
 		C2F0B54F261EA6D200B4080E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53BC0E2D0120943A6B85BF9 /* Pods-Perpus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28N3MPTD68;
 				INFOPLIST_FILE = Perpus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +370,13 @@
 		};
 		C2F0B550261EA6D200B4080E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51B3E674D98A38B485D9BC2 /* Pods-Perpus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28N3MPTD68;
 				INFOPLIST_FILE = Perpus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
